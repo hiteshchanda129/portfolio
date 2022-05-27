@@ -1,0 +1,6 @@
+li.active{
+    color: rgb(205, 133, 0);
+}
+li:hover{
+    color: rgb(205, 133, 0);
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@300;400;600;700&display=swap');
+
+
+.typical{
+    font-family: 'PT Serif', serif;
+}
+.para{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-image{
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.imageshape{
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    transition: .8s ease-in-out;
+}
+.imageshape:hover{
+    width: 440px;
+    height: 440px;
+    transition: 2s ease-in;
+}
+
+.profie-image{
+    max-width: 174%;
+}
+
+.profile-main{
+    max-width: 1200px;
+}
+
+@media screen and (max-width : 640px) {
+    .imageshape{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .imageshape:hover{
+        width: 80px;
+        height: 80px;
+    }
+    .main-image{
+        width: 85px;
+        height: 85px;
+        border-radius: 60%;
+    }
+    
+}
+
+
+@media screen and (max-width : 1024px) {
+    .imageshape{
+        width: 240px;
+        height: 240px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+        .imageshape:hover{
+            width: 245px;
+            height: 240px;
+            transition: 0.8s ease-in;
+        }
+        .main-image{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+}
+
+@media screen and (max-width : 768px) {
+    .imageshape{
+        width: 340px;
+        height: 340px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+        .imageshape:hover{
+            width: 345px;
+            height: 345px;
+            transition: 0.8s ease-in;
+        }
+        .main-image{
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+        }
+}

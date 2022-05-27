@@ -1,0 +1,19 @@
+.resume-ul li:before{
+    content: "\2022 \00A0";
+    color: orange;
+    margin-right:  10px; 
+    font-size: 42px;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.width{
+    width: 80%;
+}
+.content-between{
+    align-content: space-between;
+}
+.h-pro{
+    height: 479px;
+}

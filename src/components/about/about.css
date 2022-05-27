@@ -1,0 +1,21 @@
+.boxdesign{
+    box-shadow:
+    0.4px 0.2px 1.6px rgba(0, 0, 0, 0.042),
+    0.9px 0.6px 3.8px rgba(0, 0, 0, 0.061),
+    1.8px 1.1px 7.1px rgba(0, 0, 0, 0.075),
+    3.1px 2px 12.7px rgba(0, 0, 0, 0.089),
+    5.8px 3.8px 23.8px rgba(0, 0, 0, 0.108),
+    14px 9px 57px rgba(0, 0, 0, 0.15)
+  ;
+}
+.highlight li:before{
+    content: "\2022 \00A0";
+    color: orange;
+    margin-right:  10px;
+    font-size: x-large;
+}
+
+.aboutimage{
+  height: 100%;
+  object-fit: cover;
+}
