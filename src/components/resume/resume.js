@@ -23,20 +23,20 @@ function Resume() {
                     </div>
                     <div className='flex'>
                         <div className=' bg-slate-900 py-3 md:py-6 px-2 text-white'><i class="fa-solid fa-user-graduate text-sm md:text-xl"></i></div>
-                        <div className='py-1 md:py-4  text-slate-900 font-semibold text-md'>
+                        <div className='py-1 md:py-4  text-slate-900 font-semibold text-md cursor-pointer'>
                             <p className={reference === "Education" ? 'pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 text-white bg-slate-900 rounded-r-3xl' : "pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 rounded-r-3xl"}
                                 onClick={(e) => setRefrence(e.target.innerText)} >Education</p>
                         </div>
                     </div>
                     <div className='flex'>
                         <div className='bg-slate-900 py-3 md:py-6 px-2 text-white'><i class="fa-solid fa-clock-rotate-left text-sm md:text-xl"></i></div>
-                        <div className='py-1 md:py-4  text-slate-900 text-md font-semibold'>
+                        <div className='py-1 md:py-4 cursor-pointer text-slate-900 text-md font-semibold'>
                             <p className={reference === "Work History" ? 'pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 text-white bg-slate-900 rounded-r-3xl' : "pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 rounded-r-3xl"} onClick={(e) => setRefrence(e.target.innerText)}>Work History</p>
                         </div>
                     </div>
                     <div className='flex'>
                         <div className='bg-slate-900 py-3 md:py-6 px-2 text-white'><i class="fa-solid fa-clock-rotate-left text-sm md:text-xl"></i></div>
-                        <div className='py-1 md:py-4  text-slate-900 text-md font-semibold'>
+                        <div className='py-1 md:py-4 cursor-pointer text-slate-900 text-md font-semibold'>
                             {/* <Link to='programming'> */}
                             <p className={reference === "Programming Skill" ? 'pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 text-white bg-slate-900 rounded-r-3xl' : "pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72rounded-r-3xl"} onClick={(e) => setRefrence(e.target.innerText)}>Programming Skill</p>
                             {/* </Link> */}
@@ -44,13 +44,13 @@ function Resume() {
                     </div>
                     <div className='flex'>
                         <div className='bg-slate-900 py-3 md:py-6 px-2 text-white'><i class="fa-solid fa-chart-bar text-sm md:text-xl"></i></div>
-                        <div className='py-1 md:py-4  text-slate-900 text-md font-semibold'>
+                        <div className='py-1 md:py-4 cursor-pointer text-slate-900 text-md font-semibold'>
                             <p className={reference === "Projects" ? 'pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 text-white bg-slate-900 rounded-r-3xl' : "pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 rounded-r-3xl"} onClick={(e) => setRefrence(e.target.innerText)}>Projects</p>
                         </div>
                     </div>
                     <div className='flex '>
                         <div className='bg-slate-900 py-3 md:py-6 px-2 text-white'><i class="text-sm md:text-xl fa-solid fa-chess"></i></div>
-                        <div className='py-1 md:py-4 text-slate-900 text-md font-semibold'>
+                        <div className='py-1 md:py-4 cursor-pointer text-slate-900 text-md font-semibold'>
                             <p className={reference === "Intrests" ? 'pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 text-white bg-slate-900 rounded-r-3xl' : "pl-5 md:pl-10 py-2 md:py-3 w-48 md:w-72 rounded-r-3xl"} onClick={(e) => setRefrence(e.target.innerText)}>Intrests</p>
                         </div>
                     </div>
